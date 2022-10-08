@@ -7,7 +7,6 @@ import { Menu } from "./Menu/Menu";
 export function Header(props) {
   const [scrollPosition, setScrollPosition] = useState(0);
   const handleScroll = () => {
-    console.log(document.getElementById("body").scrollTop);
     const position = document.getElementById("body").scrollTop;
     setScrollPosition(position);
   };
@@ -30,8 +29,8 @@ export function Header(props) {
     const element = document.getElementById(anchor);
     if (element) {
       return (
-        scrollPosition > (element.offsetTop - 66) &&
-        scrollPosition < element.offsetTop + element.clientHeight - 66
+        scrollPosition > (element.offsetTop - 67) &&
+        scrollPosition < element.offsetTop + element.clientHeight - 67
       );
     } else {
       return false;

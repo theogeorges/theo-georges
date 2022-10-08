@@ -10,7 +10,6 @@
   padding: 8px;
   .icon {
     width: 30px;
-    height: 30px;
   }
   .level {
     @include row;
@@ -19,7 +18,7 @@
       border-radius: 8px;
       width: 40px;
       height: 8px;
-      background-color: $black-07;
+      background-color: rgba($black, 0.2);
       &.green {
         &.level-0 {
           background-color: rgba($primary-color, 0.25);

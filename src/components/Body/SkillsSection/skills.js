@@ -4,13 +4,13 @@ import typescript from "../../../assets/icons/skills/typescript.png";
 import dart from "../../../assets/icons/skills/dart.png";
 import java from "../../../assets/icons/skills/java.png";
 // Frameworks
-import flutter from "../../../assets/icons/skills/flutter.png";
+import flutter from "../../../assets/icons/skills/flutter.webp";
 import react from "../../../assets/icons/skills/react.png";
-import spring from "../../../assets/icons/skills/spring.png";
+import spring from "../../../assets/icons/skills/spring.svg";
 import drupal from "../../../assets/icons/skills/drupal.png";
 import vue from "../../../assets/icons/skills/vue.png";
-import angular from "../../../assets/icons/skills/angular.png";
-import storybook from "../../../assets/icons/skills/storybook.png";
+import angular from "../../../assets/icons/skills/angular.svg";
+import storybook from "../../../assets/icons/skills/storybook.svg";
 import hibernate from "../../../assets/icons/skills/hibernate.png";
 // CI/CD
 import gitlab from "../../../assets/icons/skills/gitlab.png";
@@ -18,7 +18,7 @@ import gitlabcicd from "../../../assets/icons/skills/gitlabcicd.png";
 import jenkins from "../../../assets/icons/skills/jenkins.png";
 // Conteneurisation
 import docker from "../../../assets/icons/skills/docker.png";
-import kubernetes from "../../../assets/icons/skills/kubernetes.png";
+import kubernetes from "../../../assets/icons/skills/kubernetes.svg";
 // Architecture
 import atomicdesign from "../../../assets/icons/skills/atomicdesign.png";
 import mvc from "../../../assets/icons/skills/mvc.png";
@@ -45,16 +45,16 @@ export const skills = {
     { icon: hibernate, level: 1, name: "Hibernate" },
   ],
   Langages: [
-    { iconPath: javascript, level: 3, name: "Javascript" },
-    { iconPath: typescript, level: 3, name: "Typescript" },
-    { iconPath: dart, level: 2, name: "Dart" },
-    { iconPath: java, level: 2, name: "Java" },
+    { icon: javascript, level: 3, name: "Javascript" },
+    { icon: typescript, level: 3, name: "Typescript" },
+    { icon: dart, level: 2, name: "Dart" },
+    { icon: java, level: 2, name: "Java" },
   ],
   Architecture: [
-    { iconPath: atomicdesign, level: 3, name: "Atomic Design" },
-    { iconPath: mvc, level: 2, name: "MVC" },
-    { iconPath: bloc, level: 1, name: "BloC" },
-    { iconPath: rest, level: 1, name: "REST" },
+    { icon: atomicdesign, level: 3, name: "Atomic Design" },
+    { icon: mvc, level: 2, name: "MVC" },
+    { icon: bloc, level: 1, name: "BloC" },
+    { icon: rest, level: 1, name: "REST" },
   ],
 
   IDE: [

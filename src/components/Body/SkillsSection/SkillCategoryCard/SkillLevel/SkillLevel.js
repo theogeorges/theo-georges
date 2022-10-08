@@ -4,7 +4,7 @@ import "./SkillLevel.scss";
 export function SkillLevel(props) {
   return (
     <div className="skill-level">
-      <img src={props.skill.iconPath} alt={props.skill.name} className="icon" />
+      <img src={props.skill.icon} alt={props.skill.name} className="icon" />
       <div>
         <div className="name">{props.skill.name}</div>
         <div className="level">

@@ -4,13 +4,13 @@
 
 .skill-category-card {
   @include column;
-  width: min-content;
+  width: max-content;
   border-radius: 4px;
   align-items: center;
   background-color: $white;
   box-shadow: $box-shadow;
-  padding: 8px;
-  margin: 16px 0;
+  padding: 10px;
+  margin: 16px auto;
 
   &.scale-in {
     .skill-level {

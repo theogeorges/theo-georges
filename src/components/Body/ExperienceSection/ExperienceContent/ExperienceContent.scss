@@ -1,0 +1,40 @@
+@import "../../../../style/variables.scss";
+@import "../../../../style/breakpoints.scss";
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  .grey {
+    color: grey;
+  }
+  .date {
+    display: flex;
+    @include lg {
+      display: none;
+    }
+  }
+  .place-icon,
+  .date-icon {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    .tag-chip {
+      padding: 6px 10px;
+      border-radius: 50px;
+      background-color: $primary-color;
+      color: $white;
+    }
+  }
+}
