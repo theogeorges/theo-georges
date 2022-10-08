@@ -14,7 +14,6 @@ import { buildExperienceDate } from "./ExperienceSectionUtils";
 export function ExperienceSection(props) {
   const startAnimation = (entries, observer) => {
     entries.forEach((entry) => {
-      console.log("toggling");
       entry.target.classList.toggle("bounce-in", entry.isIntersecting);
     });
   };
@@ -42,12 +41,9 @@ export function ExperienceSection(props) {
       <div className="experience-column">
         {experience.map((item, index) => {
           return (
-            <div className="experience-card-wrapper">
+            <div className="experience-card-wrapper" key={index}>
               <div className="experience-card">
-                <ExperienceContent
-                  experience={item}
-                  key={index}
-                ></ExperienceContent>
+                <ExperienceContent experience={item}></ExperienceContent>
               </div>
             </div>
           );

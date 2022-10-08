@@ -6,7 +6,6 @@ import { skills } from "./skills";
 import "./SkillsSection.scss";
 
 export function SkillsSection(props) {
-
   return (
     <SectionWrapper className="skills-section" id="skills">
       <SectionTitle>Compétences</SectionTitle>

@@ -4,6 +4,9 @@
   padding: 8px 0;
   position: relative;
   display: inline-block;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
   &::before {
     content: "";
     display: block;

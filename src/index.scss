@@ -1,0 +1,30 @@
+@import "./style/breakpoints.scss";
+@import "./style/variables.scss";
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(0deg, $black 0%, $primary-color 100%);
+  scroll-behavior: smooth;
+  padding: 10px 10px 0 10px;
+  @include md {
+    padding: 20px 20px 0 20px;
+  }
+  @include lg {
+    padding: 30px 30px 0 30px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

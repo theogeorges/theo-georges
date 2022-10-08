@@ -7,9 +7,12 @@
   justify-content: flex-start;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  height: calc(100vh - 56px);
+  height: calc(100vh - 60px);
+  @include md {
+    height: calc(100vh - 70px);
+  }
   @include lg {
-    height: calc(100vh - 66px);
+    height: calc(100vh - 80px);
   }
 }
 

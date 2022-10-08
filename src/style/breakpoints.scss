@@ -14,11 +14,11 @@ $screen-lg: 1200px;
 }
 
 @mixin container {
-  padding: 0 10px;
+  padding: 10px 10px;
   @include md {
-    padding: 0 calc(10px + (100vw - $screen-md) / 2);
+    padding: 20px calc(10px + (100vw - $screen-md) / 2);
   }
   @include lg {
-    padding: 0 calc(10px + (100vw - $screen-lg) / 2);
+    padding: 30px calc(10px + (100vw - $screen-lg) / 2);
   }
 }

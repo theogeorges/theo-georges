@@ -29,8 +29,8 @@ export function Header(props) {
     const element = document.getElementById(anchor);
     if (element) {
       return (
-        scrollPosition > (element.offsetTop - 67) &&
-        scrollPosition < element.offsetTop + element.clientHeight - 67
+        scrollPosition > (element.offsetTop - 82) &&
+        scrollPosition < element.offsetTop + element.clientHeight - 82
       );
     } else {
       return false;
