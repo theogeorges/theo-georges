@@ -1,0 +1,7 @@
+@import "../../../style/mixins.scss";
+@import "../../../style/variables.scss";
+
+.menu {
+    background-color: $white;
+    @include row;
+}

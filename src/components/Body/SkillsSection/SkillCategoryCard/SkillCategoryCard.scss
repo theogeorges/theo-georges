@@ -1,0 +1,26 @@
+@import "../../../../style/mixins.scss";
+@import "../../../../style/variables.scss";
+@import "../../../../style/animations.scss";
+
+.skill-category-card {
+  @include column;
+  width: min-content;
+  border-radius: 4px;
+  align-items: center;
+  background-color: $white;
+  box-shadow: $box-shadow;
+  padding: 8px;
+  margin: 16px 0;
+
+  &.scale-in {
+    .skill-level {
+      animation: FadeIn 0.8s linear;
+      animation-fill-mode: both;
+    }
+    @for $i from 1 through 10 {
+      .skills .skill-level:nth-child(#{$i}n) {
+        animation-delay: #{$i * 0.3}s;
+      }
+    }
+  }
+}

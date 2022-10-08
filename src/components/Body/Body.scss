@@ -1,0 +1,28 @@
+@import "../../style/mixins.scss";
+@import "../../style/breakpoints.scss";
+@import "../../style/variables.scss";
+
+.body {
+  @include column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: calc(100vh - 56px);
+  @include lg {
+    height: calc(100vh - 66px);
+  }
+}
+
+.body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+.body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+.body::-webkit-scrollbar-thumb {
+  background-color: grey; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid $white;
+}

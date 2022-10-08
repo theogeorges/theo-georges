@@ -1,0 +1,13 @@
+@import "../../../../style/variables.scss";
+
+.menu-item {
+  text-decoration: none;
+  color: unset;
+  display: flex;
+  &.active {
+    .button {
+      font-weight: bold;
+    }
+    border-bottom: 2px solid $primary-color;
+  }
+}

@@ -1,0 +1,39 @@
+@import "../../../../../style/mixins.scss";
+@import "../../../../../style/breakpoints.scss";
+@import "../../../../../style/variables.scss";
+
+.skill-level {
+  width: min-content;
+  @include row;
+  gap: 6px;
+  align-items: center;
+  padding: 8px;
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+  .level {
+    @include row;
+    gap: 6px;
+    .level-level {
+      border-radius: 8px;
+      width: 40px;
+      height: 8px;
+      background-color: $black-07;
+      &.green {
+        &.level-0 {
+          background-color: rgba($primary-color, 0.25);
+        }
+        &.level-1 {
+          background-color: rgba($primary-color, 0.5);
+        }
+        &.level-2 {
+          background-color: rgba($primary-color, 0.75);
+        }
+        &.level-3 {
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}

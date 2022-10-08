@@ -1,0 +1,9 @@
+@import "../../../style/variables.scss";
+
+.skills-section {
+  background-color: $black-01;
+  display: block;
+  .skills-grid {
+    display: flex;
+  }
+}

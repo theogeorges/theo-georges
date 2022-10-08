@@ -1,0 +1,24 @@
+$screen-md: 768px;
+$screen-lg: 1200px;
+
+@mixin md {
+  @media (min-width:#{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
+@mixin container {
+  padding: 0 10px;
+  @include md {
+    padding: 0 calc(10px + (100vw - $screen-md) / 2);
+  }
+  @include lg {
+    padding: 0 calc(10px + (100vw - $screen-lg) / 2);
+  }
+}
