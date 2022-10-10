@@ -1,5 +1,10 @@
 @import "./style/breakpoints.scss";
 @import "./style/variables.scss";
+@import "@fontsource/ubuntu";
+html {
+  font-size: 100%;
+  color: $black;
+}
 body,
 html {
   margin: 0;
@@ -23,7 +28,10 @@ body {
     padding: 30px 30px 0 30px;
   }
 }
-
+button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

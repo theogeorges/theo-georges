@@ -1,5 +1,14 @@
 @import "../../../style/variables.scss";
+@import "../../../style/animations.scss";
 
 .perso-section {
   background-color: $black-01;
+  .personal-project-wrapper {
+    &.scale-in {
+      .personal-project {
+        animation: SlideInFromLeft 0.8s linear;
+        animation-fill-mode: both;
+      }
+    }
+  }
 }

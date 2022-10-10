@@ -1,0 +1,8 @@
+@import "../../../style/variables.scss";
+
+.chip {
+  padding: 6px 10px;
+  border-radius: 50px;
+  background-color: $primary-color;
+  color: white;
+}

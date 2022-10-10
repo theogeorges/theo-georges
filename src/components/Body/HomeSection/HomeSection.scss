@@ -9,8 +9,8 @@
   flex-direction: column;
   justify-content: center;
   &.scale-in {
-    .home-section-wrapper {
-      animation: FadeIn 0.8s linear;
+    .profile-picture {
+      animation: ScaleIn 0.8s linear;
     }
   }
   .home-section-wrapper {
@@ -20,7 +20,7 @@
     }
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     .profile-picture {
       box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
       width: 200px;

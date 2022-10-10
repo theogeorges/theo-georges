@@ -1,6 +1,7 @@
 import "./ExperienceContent.scss";
 import { FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 import { buildExperienceDate } from "../ExperienceSectionUtils";
+import Chip from "../../../../widgets/01-Atoms/Chip/Chip";
 
 export function ExperienceContent({
   experience: { title, icon, company, city, tags, start, end, description },
@@ -26,11 +27,7 @@ export function ExperienceContent({
       ></div>
       <div className="tags">
         {tags.map((item, index) => {
-          return (
-            <div className="tag-chip" key={index}>
-              {item}
-            </div>
-          );
+          return <Chip key={index}>{item}</Chip>;
         })}
       </div>
     </div>

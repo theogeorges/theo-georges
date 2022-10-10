@@ -11,12 +11,12 @@ export const experience = [
     city: "Aix-en-Provence, Languedoc-Roussillon, France",
     description:
       "J'ai contribué au développement \"from scratch\" d'un site web pour le compte de la FDJ. " +
-      "J'ai également contribué au développement de 2 refontes de sites web. Mes missions ont été les suivantes :<br/>" +
-      "- Développement des fonctionnalités clés au niveau de Drupal" +
-      "<br/>- Amélioration du processus de CI/CD" +
-      "<br/>- Présentations au client" +
-      "<br/>- Automatisation des tests (front-end) (30 -> 80% couverture de code)" +
-      "<br/>- Développement d'écrans conformes à une maquette",
+      "J'ai également contribué au développement de <b>2 refontes</b> de sites web. Mes missions ont été les suivantes :" +
+      "<ul><li>Développement des fonctionnalités clés au niveau de Drupal</li>" +
+      "<li>Amélioration du processus de CI/CD</li>" +
+      "<li>Présentations au client</li>" +
+      "<li><b>Automatisation des tests</b> (front-end) (30 -> 80% couverture de code)</li>" +
+      "<li>Développement d'écrans conformes à une maquette</li></ul>",
     tags: [
       "React.js",
       "Drupal",
@@ -38,9 +38,9 @@ export const experience = [
     city: "Montpellier, Languedoc-Roussillon, France",
     description:
       "Dans un contexte d'alternance, j'ai contribué au développement \"from scratch\" d'un site web " +
-      "pour le compte de la région Occitanie. Mes missions ont été les suivantes :<br/>" +
-      "- Développement des fonctionnalités clés au niveau de Drupal" +
-      "<br/>- Développement d'écrans conformes à une maquette",
+      "pour le compte de la région Occitanie. Mes missions ont été les suivantes :" +
+      "<ul><li>Développement des fonctionnalités clés au niveau de Drupal</li>" +
+      "<li>Développement d'écrans conformes à une maquette</li></ul>",
     tags: ["Drupal 8", "React.js", "Storybook", "Twig"],
     icon: soprasteria,
   },
@@ -54,12 +54,12 @@ export const experience = [
       "Dans un contexte d'alternance, j'ai contribué au développement d'évolutions sur un site web " +
       "pour le compte de la région Occitanie. J'ai également travaillé sur la maintenance du site " +
       "en condition opérationnelle. Les phases d'évolutions ont été réalisées dans le cadre d'une " +
-      "gestion de projet avec les méthodes Agile. " +
-      "Mes missions ont été les suivantes :<br/>" +
-      "- Développement de nouvelles fonctionnalités<br/>" +
-      "- Optimisation et évolution d'anciennes fonctionnalités<br/>" +
-      "- Optimisation du système de recherche de données (refactoring complet)<br/>" +
-      "- Support client",
+      "gestion de projet avec les <b>méthodes Agile</b>. " +
+      "Mes missions ont été les suivantes :" +
+      "<ul><li>Développement de nouvelles fonctionnalités</li>" +
+      "<li><b>Optimisation et évolution</b> d'anciennes fonctionnalités</li>" +
+      "<li>Optimisation du système de recherche de données (<b>refactoring complet</b>)</li>" +
+      "<li>Support client</li></ul>",
     tags: [
       "Angular",
       "Spring",
@@ -80,10 +80,10 @@ export const experience = [
     description:
       "Dans un contexte d'alternance, j'ai contribué à la maintenance du domaine " +
       '"Orcherstration de flux et dématérialisation" du SI de la région Occitanie. ' +
-      "Mes missions ont été les suivantes :<br/>" +
-      "- Migration d'un ESB, de la phase de développement jusqu'à la mise en production<br/>" +
-      "- Analyse et résolution d'anomalies sur la GED (Gestion électronique de documents)<br/>" +
-      "- Support client (contact client quotidien)",
+      "Mes missions ont été les suivantes :" +
+      "<ul><li>Migration d'un ESB, de la phase de développement jusqu'à la mise en production</li>" +
+      "<li>Analyse et résolution d'anomalies sur la GED (Gestion électronique de documents)</li>" +
+      "<li><b>Support client</b> (contact client quotidien)</li></ul>",
     tags: ["Talend ESB", "SharePoint"],
     icon: soprasteria,
   },

@@ -2,7 +2,8 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { Branding } from "./Branding/Branding";
 import "./Header.scss";
-import { Menu } from "./Menu/Menu";
+import Menu from "./Menu/Menu";
+import VerticalMenu from "./Menu/VerticalMenu/VerticalMenu";
 
 export function Header(props) {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -29,8 +30,8 @@ export function Header(props) {
     const element = document.getElementById(anchor);
     if (element) {
       return (
-        scrollPosition > (element.offsetTop - 82) &&
-        scrollPosition < element.offsetTop + element.clientHeight - 82
+        scrollPosition > element.offsetTop - 162 &&
+        scrollPosition < element.offsetTop + element.clientHeight - 162
       );
     } else {
       return false;
@@ -44,13 +45,14 @@ export function Header(props) {
       name: "Expérience",
       active: getActive("experience"),
     },
-    { anchor: "perso", name: "Projets personnels", active: getActive("perso") },
+    { anchor: "perso", name: "Projets perso", active: getActive("perso") },
     { anchor: "diplomas", name: "Diplômes", active: getActive("diplomas") },
     { anchor: "contact", name: "Contact", active: getActive("contact") },
   ];
 
   return (
     <div className={classes}>
+      <VerticalMenu items={menuItems} />
       <Branding></Branding>
       <Menu items={menuItems}></Menu>
     </div>

@@ -12,6 +12,7 @@
     width: 30px;
   }
   .level {
+    margin-top: 6px;
     @include row;
     gap: 6px;
     .level-level {

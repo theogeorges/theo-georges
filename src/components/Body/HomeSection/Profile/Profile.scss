@@ -3,5 +3,31 @@
 @import "../../../../style/mixins.scss";
 
 .profile {
-    @include column;
+  width: 310px;
+  @include md {
+    width: 400px;
+  }
+  @include column;
+  .job {
+    color: $black-07;
+  }
+  .description {
+    text-align: justify;
+  }
+  .profile-buttons {
+    @include row;
+    gap: 6px;
+    .cv-xs {
+      display: unset;
+      @include lg {
+        display: none;
+      }
+    }
+    .cv-lg {
+      display: none;
+      @include lg {
+        display: unset;
+      }
+    }
+  }
 }

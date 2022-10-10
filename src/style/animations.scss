@@ -1,4 +1,4 @@
-@keyframes FadeIn {
+@keyframes ScaleIn {
   0% {
     opacity: 0;
     transform: scale(0.1);
@@ -9,5 +9,29 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes SlideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  90% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }

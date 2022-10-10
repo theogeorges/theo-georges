@@ -1,0 +1,12 @@
+@import "../../../../style/mixins.scss";
+
+.personal-project {
+  .title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .tags {
+    @include row;
+    gap: 6px;
+  }
+}

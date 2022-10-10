@@ -19,7 +19,7 @@ export function SkillCategoryCard(props) {
   }, [])
   return (
     <div className="skill-category-card">
-      <div>{props.name}</div>
+      <div className="title">{props.name}</div>
       <div className="skills">
         {props.skills.map((item, index) => {
           return <SkillLevel skill={item} key={index} />;

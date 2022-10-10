@@ -1,15 +1,13 @@
-import { Button } from "../../../widgets/01-Atoms/Button/Button";
+import Button from "../../../widgets/01-Atoms/Button/Button";
 import "./Branding.scss";
 
-export function Branding(props) {
+export function Branding({ onClick }) {
     return (
-        <a className="branding" href="#home">
-            <Button className="branding">
-                <div className="branding-avatar">
-                    <span className="branding-avatar-initial">T</span>
-                </div>
-                <div className="branding-name"><b>Théo</b> Georges</div>
-            </Button>
-        </a>
+        <Button className="branding" color={"text"} href="#home" onClick={onClick}>
+            <div className="branding-avatar">
+                <span className="branding-avatar-initial">T</span>
+            </div>
+            <div className="branding-name"><b>Théo</b> Georges</div>
+        </Button>
     );
 }

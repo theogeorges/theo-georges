@@ -19,7 +19,7 @@
       }
       &.bounce-in {
         .experience-card {
-          animation: FadeIn 0.8s linear;
+          animation: ScaleIn 0.8s linear;
           animation-fill-mode: both;
         }
       }

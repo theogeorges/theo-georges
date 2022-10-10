@@ -1,0 +1,15 @@
+@import "../../../../style/breakpoints.scss";
+@import "../../../../style/mixins.scss";
+
+.vertical-menu {
+  width: 250px;
+  @include column;
+  gap: 8px;
+}
+
+#app-drawer {
+  display: flex;
+  @include md {
+    display: none;
+  }
+}

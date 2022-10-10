@@ -1,5 +1,18 @@
 @import "../../../style/variables.scss";
+@import "../../../style/mixins.scss";
+@import "../../../style/animations.scss";
 
-.perso-section {
-  background-color: $black-01;
+.diplomas-section {
+  .diplomas-column {
+    @include column;
+    gap: 16px;
+    .diploma-wrapper {
+      &.fade-in {
+        .diploma-card {
+          animation: FadeIn 0.8s linear;
+          animation-fill-mode: both;
+        }
+      }
+    }
+  }
 }

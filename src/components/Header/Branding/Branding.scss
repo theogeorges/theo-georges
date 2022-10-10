@@ -2,26 +2,29 @@
 @import "../../../style/mixins.scss";
 
 .branding {
-    @include row;
-    justify-content: flex-start;
-    align-items: center;
-    text-decoration: none;
-    &-name {
-        margin-left: 4px;
+  @include row;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  &-name {
+    margin-left: 4px;
+    text-transform: none;
+  }
+  &-avatar {
+    border-radius: 50%;
+    background-color: $primary-color;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    &-initial {
+      color: $white;
+      font-weight: bold;
+      line-height: 1;
+      font-size: 15px;
+      position: relative;
+      top: 7.5px;
     }
-    &-avatar {
-        border-radius: 50%;
-        background-color: $primary-color;
-        height: 30px;
-        width: 30px;
-        text-align: center;
-        &-initial {
-            color: $white;
-            font-weight: bold;
-            line-height: 1;
-            font-size: 15px;
-            position: relative;
-            top: 7.5px;
-        }
-    }
+  }
 }
