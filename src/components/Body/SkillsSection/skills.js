@@ -37,10 +37,10 @@ export const skills = {
   Frameworks: [
     { icon: flutter, level: 3, name: "Flutter" },
     { icon: react, level: 3, name: "React.js" },
-    { icon: spring, level: 2, name: "Spring" },
+    { icon: spring, level: 3, name: "Spring Boot" },
+    { icon: angular, level: 3, name: "Angular 2+" },
     { icon: drupal, level: 2, name: "Drupal" },
     { icon: vue, level: 2, name: "Vue.js" },
-    { icon: angular, level: 2, name: "Angular 2+" },
     { icon: storybook, level: 1, name: "Storybook" },
     { icon: hibernate, level: 1, name: "Hibernate" },
   ],
@@ -58,9 +58,9 @@ export const skills = {
   ],
 
   IDE: [
-    { icon: androidstudio, level: 3, name: "Android Studio" },
+    { icon: intellij, level: 3, name: "IntelliJ" },
     { icon: vscode, level: 3, name: "VS Code" },
-    { icon: intellij, level: 2, name: "IntelliJ" },
+    { icon: androidstudio, level: 2, name: "Android Studio" },
   ],
   "CI/CD": [
     { icon: gitlab, level: 3, name: "Gitlab" },
@@ -68,12 +68,12 @@ export const skills = {
     { icon: jenkins, level: 2, name: "Jenkins" },
   ],
   "Base de données": [
+    { icon: mysql, level: 3, name: "MySQL" },
     { icon: postgresql, level: 2, name: "PostgreSQL" },
-    { icon: mysql, level: 2, name: "MySQL" },
     { icon: mongodb, level: 1, name: "MongoDB" },
   ],
   Conteneurisation: [
-    { icon: docker, level: 2, name: "Docker" },
-    { icon: kubernetes, level: 1, name: "Kubernetes" },
+    { icon: docker, level: 3, name: "Docker" },
+    { icon: kubernetes, level: 2, name: "Kubernetes" },
   ],
 };

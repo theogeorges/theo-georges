@@ -1,8 +1,37 @@
 // Languages
 import soprasteria from "../../../assets/images/experience/logosoprasteria.png";
 import majorconsultants from "../../../assets/images/experience/logomajor.png";
+import inetum from "../../../assets/images/experience/logoinetum.png";
 
 export const experience = [
+  {
+    title: "Développeur Web",
+    start: new Date(2022, 10, 7),
+    end: new Date(2023, 6, 2),
+    company: "Inetum",
+    city: "Montpellier/Toulouse, Occitanie, France",
+    description:
+      "J'ai contribué au développement d'une refonte de site web pour le compte de la région Occitanie. " +
+      "J'ai également été responsable du maintien en condition opérationnelle d'un site web. Mes missions ont été les suivantes :" +
+      "<ul><li><b>Reverse-engineering</b> sur le code PHP</li>" +
+      "<li>Développement d'une API Spring Boot</li>" +
+      "<li>Développement d'écrans Angular</li>" +
+      "<li>Reprise de données et amélioration de la structure BDD</li>" +
+      "<li>Mise en place de l'intégration continue Jenkins</li>" +
+      "<li>\"MCO\" du site Drupal</li></ul>",
+    tags: [
+      "Angular 15",
+      "Spring Boot",
+      "MySQL",
+      "Mailcatcher",
+      "Tomcat 9",
+      "Keycloak",
+      "Jenkins",
+      "Drupal 9",
+      "Docker",
+    ],
+    icon: inetum,
+  },
   {
     title: "Développeur React.js/Drupal 9",
     start: new Date(2021, 5, 1),
